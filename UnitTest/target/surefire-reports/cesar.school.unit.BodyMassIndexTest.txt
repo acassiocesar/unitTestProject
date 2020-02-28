@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: cesar.school.unit.BodyMassIndexTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.072 s <<< FAILURE! - in cesar.school.unit.BodyMassIndexTest
+calculate_bmiBetween18Dot5And25_HealthyWeight  Time elapsed: 0.01 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Healthy weight> but was: <Healthy Weight>
+	at cesar.school.unit.BodyMassIndexTest.calculate_bmiBetween18Dot5And25_HealthyWeight(BodyMassIndexTest.java:20)
+
+calculate_bmiBetween17And18Dot5_Underweight  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Underweight> but was: <Severely underweight>
+	at cesar.school.unit.BodyMassIndexTest.calculate_bmiBetween17And18Dot5_Underweight(BodyMassIndexTest.java:15)
+

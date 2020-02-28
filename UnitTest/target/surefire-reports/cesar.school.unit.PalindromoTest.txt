@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: cesar.school.unit.PalindromoTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in cesar.school.unit.PalindromoTest
+check_StringFalse  Time elapsed: 0 s  <<< ERROR!
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at cesar.school.unit.PalindromoTest.check_StringFalse(PalindromoTest.java:20)
+
+check_stringLengh2_True  Time elapsed: 0 s  <<< ERROR!
+java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at cesar.school.unit.PalindromoTest.check_stringLengh2_True(PalindromoTest.java:15)
+
